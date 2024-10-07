@@ -1,6 +1,6 @@
 <template>
-  <div class="h-full bg-gray-50 text-gray-100 flex flex-col items-center">
-    <!-- Navbar -->
+    <div class="min-h-screen bg-gray-50 text-gray-100 flex flex-col items-center">
+        <!-- Navbar -->
     <navbar class="w-5/6 my-6" />
 
     <div
@@ -34,7 +34,7 @@
           données, et d’améliorer notre maîtrise de Bootstrap pour créer des
           interfaces responsives.
         </p>
-        <p class="text-gray-400 italic brico-800 text-2xl flex">
+        <p class="text-gray-400 w-auto italic brico-800 text-2xl flex flex-row">
           Technologies utilisées :
           <div class="flex"> 
             <span class="px-2 py-1 bg-purple-400 ml-4 text-white rounded-full"
@@ -48,6 +48,9 @@
             </div>
           
         </p>
+        <p class="text-slate-950 brico-200 text-lg">
+          <span>Travail en équipe</span>
+      </p>
       </div>
 
       <div class="mt-8 flex justify-between items-center">
@@ -62,7 +65,7 @@
           class="bg-blue-500 text-white px-4 items-center flex py-2 rounded-lg"
         >
           <Icon name="mdi:calendar" class="size-9 mx-1 text-gray-50" />
-          Novembre - Decembre 2023</span
+          Mai - Juin 2024</span
         >
       </div>
     </div>

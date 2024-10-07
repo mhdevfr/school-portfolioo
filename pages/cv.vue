@@ -13,7 +13,7 @@
           href="https://www.canva.com/design/DAFdLD5D7xg/kGNmVzy5DtaU2umXmRxRUw/view?utm_content=DAFdLD5D7xg&utm_campaign=designshare&utm_medium=embeds&utm_source=link"
           target="_blank"
           rel="noopener"
-          class="mt-4 px-4 py-2 bg-blue-600 text-white rounded-lg shadow-md hover:bg-blue-500 transition duration-300"
+          class="mt-4 px-4 py-2 bg-gray-100 text-black rounded-lg shadow-md hover:bg-blue-500 transition duration-300"
         >
           Télécharger mon CV
         </a>

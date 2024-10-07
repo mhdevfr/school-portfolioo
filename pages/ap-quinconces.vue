@@ -1,6 +1,6 @@
 <template>
-  <div class="h-full bg-gray-50 text-gray-100 flex flex-col items-center">
-    <!-- Navbar -->
+    <div class="min-h-screen bg-gray-50 text-gray-100 flex flex-col items-center">
+        <!-- Navbar -->
     <navbar />
 
     <div
@@ -33,6 +33,9 @@
         <p class="text-gray-400 italic brico-800 text-2xl">Technologies utilisées : 
             <span class="px-2 py-1 bg-black ml-4 text-white rounded-full">Framer</span>
         </p>
+        <p class="text-slate-950 brico-200 text-lg">
+          <span>Travail en équipe</span>
+      </p>
       </div>
 
       <div class="mt-8 flex justify-between items-center">

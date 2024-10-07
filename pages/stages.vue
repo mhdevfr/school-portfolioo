@@ -20,7 +20,7 @@
               <div class="flex items-start justify-between">
                 <span
                   class="px-5 py-2 bg-blue-400 rounded-lg w-1/2 brico-800 text-center"
-                  >Du 13/05 au 15/06/2024
+                  >Du 06/05 au 15/06/2024
                 </span>
                 <a
                   href="https://www.agence-aurion.fr/"
@@ -35,7 +35,9 @@
             class="col-span-2 row-span-1 bg-gray-100 rounded-lg shadow-md flex items-center justify-center overflow-hidden"
           >
             <div class="w-full h-full relative">
-              <h1 class="absolute z-50 bg-white w-full text-xl p-2 text-slate-950 brico-800">
+              <h1
+                class="absolute z-50 bg-white w-full text-xl p-2 text-slate-950 brico-800"
+              >
                 Contributions sur :
               </h1>
               <UCarousel
@@ -89,12 +91,35 @@
           </div>
 
           <div
-            class="col-span-3 row-span-4 bg-gray-100 rounded-lg shadow-md flex items-center justify-center overflow-hidden"
+            class="col-span-3 row-span-4 bg-gray-100 rounded-lg shadow-md flex items-start justify-start overflow-hidden"
           >
-            <img
-              src="../assets/images/aurion.png"
-              class="w-full h-full object-cover rounded-xl"
-            />
+            <div class="flex">
+              <div class="p-4 h-full flex flex-col justify-around">
+                <h1 class="brico-800 text-2xl">Compétences :</h1>
+                <ul>
+                  <li class="brico-200">- Développement web</li>
+                  <li class="brico-200">- Développement mobile</li>
+                  <li class="brico-200">- Gestion de projet</li>
+                  <li class="brico-200">- Travail en équipe</li>
+                </ul>
+                <div class="flex items-center justify-around h-full">
+                  <a
+                    href="https://www.canva.com/design/DAGFgw4bhJs/kSXR1s1MMP6PI0I8dU1vHQ/view?utm_content=DAGFgw4bhJs&utm_campaign=designshare&utm_medium=link&utm_source=editor"
+                    class="text-gray-50 py-2 text-center px-4 rounded-lg bg-slate-950 brico-800"
+                    >Voir un récapitulatif</a
+                  >
+                  <span class="bg-red-400 rounded-md text-center ml-2 py-2 px-3">
+                    En équipe
+                  </span>
+                </div>
+              </div>
+              <div>
+                <img
+                  src="@/assets/images/aurion.png"
+                  class="w-full h-full object-cover"
+                />
+                </div>
+            </div>
           </div>
         </div>
       </div>
@@ -103,11 +128,10 @@
 </template>
 
 <script setup lang="ts">
-import aurion from '@/assets/images/aurion.png';
-import agm from '@/assets/images/agm.png';
-import marceau from '@/assets/images/marceau.png';
-import topsellerie from '@/assets/images/topsellerie.png';
+import auberdog from "@/assets/images/auberdog.png";
+import agm from "@/assets/images/agm.png";
+import marceau from "@/assets/images/marceau.png";
+import topsellerie from "@/assets/images/topsellerie.png";
 
-const items = [aurion, agm, marceau, topsellerie];
+const items = [auberdog, agm, marceau, topsellerie];
 </script>
-

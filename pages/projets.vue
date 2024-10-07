@@ -25,7 +25,7 @@
                 </p>
                 <div class="w-full flex-col flex mt-4">
                   <h1 class="brico-800">Technologies utilisés</h1>
-                  <div>
+                  <div class="mt-2">
                     <span
                       class="px-2 py-1 rounded-full bg-orange-950 text-white"
                       >WordPress</span
@@ -63,9 +63,9 @@
                 </p>
                 <div class="w-full flex-col flex mt-4">
                   <h1 class="brico-800">Technologies utilisés</h1>
-                  <div>
+                  <div class="mt-2">
                     <span class="px-2 py-1 rounded-full bg-red-300">Figma</span>
-                    <span class="px-2 py-1 rounded-full bg-blue-400"
+                    <span class="px-2 py-1 mx-2 rounded-full bg-blue-400"
                       >Framer</span
                     >
                     <span class="px-2 py-1 rounded-full bg-yellow-400"
@@ -102,11 +102,11 @@
                 </p>
                 <div class="w-full flex-col flex mt-4">
                   <h1 class="brico-800">Technologies utilisés</h1>
-                  <div>
+                  <div class="mt-2">
                     <span class="px-2 py-1 rounded-full bg-yellow-300"
                       >Javascript</span
                     >
-                    <span class="px-2 py-1 rounded-full bg-purple-400"
+                    <span class="px-2 py-1 mx-2 rounded-full bg-purple-400"
                       >Boostrap</span
                     >
                     <span class="px-2 py-1 rounded-full bg-blue-400">PHP</span>
