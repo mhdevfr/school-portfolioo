@@ -113,12 +113,6 @@
                   </span>
                 </div>
               </div>
-              <div>
-                <img
-                  src="@/assets/images/aurion.png"
-                  class="w-full h-full object-cover"
-                />
-                </div>
             </div>
           </div>
         </div>
