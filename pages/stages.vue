@@ -34,8 +34,10 @@
           <div
             class="col-span-2 row-span-1 bg-gray-100 rounded-lg shadow-md flex items-center justify-center overflow-hidden"
           >
-            <div class="w-full h-full">
-              <h1 class="relative z-50 p-6 text-2xl text-slate-950 brico-800">Projets sur lesquels j'ai travaillé</h1>
+            <div class="w-full h-full relative">
+              <h1 class="absolute z-50 bg-white w-full text-xl p-2 text-slate-950 brico-800">
+                Contributions sur :
+              </h1>
               <UCarousel
                 v-slot="{ item }"
                 :items="items"
@@ -101,10 +103,11 @@
 </template>
 
 <script setup lang="ts">
-const items = [
-  "/photolio-dev/assets/images/aurion.png",
-  "/photolio-dev/assets/images/agm.png",
-  "/photolio-dev/assets/images/marceau.png",
-  "/photolio-dev/assets/images/topsellerie.png",
-];
+import aurion from '@/assets/images/aurion.png';
+import agm from '@/assets/images/agm.png';
+import marceau from '@/assets/images/marceau.png';
+import topsellerie from '@/assets/images/topsellerie.png';
+
+const items = [aurion, agm, marceau, topsellerie];
 </script>
+
