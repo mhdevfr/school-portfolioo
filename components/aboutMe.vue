@@ -3,9 +3,13 @@
     <div class="flex items-start justify-normal flex-col p-10">
       <div class="flex">
         <div class="ml-10 flex flex-col justify-center mr-10">
-          <h1 class="text-white text-4xl font-bold brico-800">A propos de moi.</h1>
-          <p class="text-white text-xl mt-5 w-3/4 brico-200 first-letter:text-white">
-            Actuellement en études au
+          <h1 class="text-white text-4xl font-bold brico-800">
+            A propos de moi.
+          </h1>
+          <p
+            class="text-white text-xl mt-5 w-3/4 brico-200 first-letter:text-white"
+          >
+            Currently studying at
             <span
               class="underline underline-offset-2 decoration-blue-400 relative"
               @mouseover="showPopover.leMans = true"
@@ -24,23 +28,24 @@
                   loading="lazy"
                   referrerpolicy="no-referrer-when-downgrade"
                 ></iframe>
-                A city in northwestern France, known for its famous 24-hour car
-                race.
-              </div> </span
-            >. I am a front-end web developer and designer. I make
+                Une ville dans le nord-ouest de la France, connue pour sa
+                célèbre course de 24 heures.
+              </div>
+            </span>
+            Je suis développeur web front-end et designer. Je crée
             <span
               class="underline-offset-2 underline decoration-lime-400 relative"
               @mouseover="showPopover.websites = true"
               @mouseleave="showPopover.websites = false"
             >
-              websites
+              des sites web
               <div
                 v-if="showPopover.websites"
                 class="absolute z-50 bottom-full left-0 p-4 w-64 bg-gray-900 text-gray-50 rounded-lg shadow-md text-lg"
                 v-motion-pop-visible
               >
-                I build responsive and interactive websites using modern
-                technologies. Like thoses ones !
+                Je construis des sites web réactifs et interactifs en utilisant
+                des technologies modernes. Comme ceux-ci !
                 <div class="flex justify-around items-center mt-2">
                   <Icon name="logos:vue" size="32" />
                   <Icon name="logos:nuxt-icon" size="32" />
@@ -49,8 +54,8 @@
                 </div>
               </div>
             </span>
-            and web applications with the latest technologies and trends. I'm
-            also learning
+            et des applications web avec les dernières technologies et
+            tendances. J'apprends aussi
             <span
               class="underline underline-offset-2 decoration-orange-400 relative"
               @mouseover="showPopover.swift = true"
@@ -61,26 +66,31 @@
                 v-if="showPopover.swift"
                 class="absolute bottom-full left-0 mb-2 p-4 w-64 bg-gray-900 text-gray-50 rounded-xl shadow-md text-base"
                 v-motion-pop-visible
-
               >
                 <img
                   src="../assets/images/kaizenMobile.png"
                   class="w-32 mx-auto mb-5 rounded-xl"
                 />
-                I am learning Swift and SwiftUI to improve my skills, I've been
-                doing my own iOS application about one of my web App.
+                J'apprends Swift et SwiftUI pour améliorer mes compétences, j'ai
+                développé ma propre application iOS à partir de l'une de mes
+                applications web.
               </div>
             </span>
-            by making iOS applications for myself. I will be honored to work
-            with you on your projects. I am open to any collaboration.
+            en créant des applications iOS pour moi-même. Je serais honoré de
+            travailler avec vous sur vos projets. Je suis ouvert à toute
+            collaboration.
           </p>
+
           <div class="flex h-full items-center justify-between">
             <div>
-              <a href="#" class="py-2 px-4 bg-slate-50 rounded-lg text-gray-950">
+              <nuxt-link
+                to="/cv"
+                class="py-2 px-4 bg-slate-50 rounded-lg text-gray-950"
+              >
                 Télécharger mon CV
-              </a>
+              </nuxt-link>
             </div>
-            <div class="flex mr-10 justify-end items-center h-full ">
+            <div class="flex mr-10 justify-end items-center h-full">
               <a href="https://www.linkedin.com/in/milan-herb%C3%A9-867064299/">
                 <Icon name="mdi:linkedin" class="size-10 mx-1 text-gray-50" />
               </a>
@@ -89,7 +99,6 @@
               </a>
             </div>
           </div>
-          
         </div>
         <div>
           <div class="group h-96 w-96 [perspective: 1000px]">

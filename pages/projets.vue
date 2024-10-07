@@ -6,10 +6,11 @@
     <div
       class="w-full mt-48 p-10 lg:flex items-center bg-gray-950 flex-col flex-wrap gap-8 justify-center"
     >
-      <div class="w-full  flex items-center justify-around bg-gray-950">
+      <div class="w-full flex items-center justify-around bg-gray-950">
         <a href="#">
-
-        <div class="w-1/3 h-[600px] rounded-3xl bg-gray-50 shadow-md shadow-gray-800">
+          <div
+            class="w-[400px] h-[600px] rounded-3xl bg-gray-50 shadow-md shadow-gray-800"
+          >
             <div class="">
               <img
                 src="../assets/images/sciss.png"
@@ -19,27 +20,34 @@
                 <h1 class="text-2xl brico-800">Projet 1 : SCIS</h1>
                 <p class="brico-200 text-sm">
                   Cet AP a été réaliser par moi même j'ai pu créer un site web à
-                  l'identique d'un site web existant. Nous devions respecter le 
-                  site.
+                  l'identique d'un site web existant. Nous devions respecter le
+                  site web existant et le recréer à l'identique.
                 </p>
                 <div class="w-full flex-col flex mt-4">
                   <h1 class="brico-800">Technologies utilisés</h1>
                   <div>
-                    <span class="px-2 py-1 rounded-full bg-orange-950 text-white">WordPress</span>
-
+                    <span
+                      class="px-2 py-1 rounded-full bg-orange-950 text-white"
+                      >WordPress</span
+                    >
                   </div>
                 </div>
-                <a href="https://scis.fr" class="px-3 text-center w-1/2 bg-slate-950 text-gray-50 rounded-lg mt-8 py-2">
-                    En savoir plus
-                </a>
+                <div class="flex items-center justify-center">
+                  <nuxt-link
+                  to="/ap-sciss"
+                  class="px-3 text-center w-1/2 bg-slate-950 text-gray-50 rounded-lg mt-8 py-2"
+                >
+                  En savoir plus
+                </nuxt-link>
+                  </div>
               </div>
             </div>
-        </div>
-    </a>
+          </div>
+        </a>
 
         <a href="#">
           <div
-            class="w-1/3 h-[600px] rounded-3xl mx-8 bg-gray-50 shadow-md shadow-gray-800"
+            class="w-[400px] h-[600px] rounded-3xl mx-8 bg-gray-50 shadow-md shadow-gray-800"
           >
             <div class="">
               <img
@@ -57,21 +65,29 @@
                   <h1 class="brico-800">Technologies utilisés</h1>
                   <div>
                     <span class="px-2 py-1 rounded-full bg-red-300">Figma</span>
-                  <span class="px-2 py-1 rounded-full bg-blue-400">Framer</span>
-                  <span class="px-2 py-1 rounded-full bg-yellow-400">CMS</span>
-
+                    <span class="px-2 py-1 rounded-full bg-blue-400"
+                      >Framer</span
+                    >
+                    <span class="px-2 py-1 rounded-full bg-yellow-400"
+                      >CMS</span
+                    >
                   </div>
                 </div>
-                <a href="https://scis.fr" class="px-3 text-center w-1/2 bg-slate-950 text-gray-50 rounded-lg mt-8 py-2">
+                <div class="flex items-center justify-center">
+                  <nuxt-link
+                    to="/ap-quinconces"
+                    class="px-3 text-center w-1/2 bg-slate-950 text-gray-50 rounded-lg mt-8 py-2"
+                  >
                     En savoir plus
-                  </a>
+                  </nuxt-link>
+                </div>
               </div>
             </div>
           </div>
         </a>
         <a href="#">
           <div
-            class="w-1/3 h-[600px] rounded-3xl bg-gray-50 shadow-md shadow-gray-800"
+            class="w-[400px] h-[600px] rounded-3xl bg-gray-50 shadow-md shadow-gray-800"
           >
             <div class="">
               <img
@@ -87,15 +103,23 @@
                 <div class="w-full flex-col flex mt-4">
                   <h1 class="brico-800">Technologies utilisés</h1>
                   <div>
-                    <span class="px-2 py-1 rounded-full bg-yellow-300">Javascript</span>
-                  <span class="px-2 py-1 rounded-full bg-purple-400">Boostrap</span>
-                  <span class="px-2 py-1 rounded-full bg-blue-400">PHP</span>
-
+                    <span class="px-2 py-1 rounded-full bg-yellow-300"
+                      >Javascript</span
+                    >
+                    <span class="px-2 py-1 rounded-full bg-purple-400"
+                      >Boostrap</span
+                    >
+                    <span class="px-2 py-1 rounded-full bg-blue-400">PHP</span>
                   </div>
                 </div>
-                <a href="https://scis.fr" class="px-3 text-center w-1/2 bg-slate-950 text-gray-50 rounded-lg mt-8 py-2">
+                <div class="flex items-center justify-center">
+                  <nuxt-link
+                    to="/ap-superheros"
+                    class="px-3 text-center w-1/2 bg-slate-950 text-gray-50 rounded-lg mt-8 py-2"
+                  >
                     En savoir plus
-                  </a>
+                  </nuxt-link>
+                </div>
               </div>
             </div>
           </div>
